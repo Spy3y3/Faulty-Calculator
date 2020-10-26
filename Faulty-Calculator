@@ -1,0 +1,14 @@
+list1 = [["Vishal", 1], ["Bharagv", 2],
+         ["Pooja", 6], ["Jhanvi", 250]]
+dict1 = dict(list1)
+
+for item in dict1:
+    print(item)
+    for item, lollypop in dict1.items():
+        print(item, "and lolly is ", lollypop)
+
+items = [int, float, "ViShAl", 5, 3, 3, 22, 21, 64, 23, 233, 23, 6]
+
+for item in items:
+    if str(item).isnumeric() and item >= 6:
+        print(item)
